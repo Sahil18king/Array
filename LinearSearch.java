@@ -6,7 +6,7 @@ public class ArrayCC {
     public static int linearsearch(int number[] , int key){ //FUNCTION
         for (int i=0 ; i<number.length ;i++) {
             if (number[i]== key){
-                return 1;
+                return i;
             }
         }
         return -1 ;     
