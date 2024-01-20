@@ -3,7 +3,7 @@
 
 import java.util.*;
 public class ArrayCC {
-    public static int linearsearch(int number[] , int key){
+    public static int linearsearch(int number[] , int key){ //FUNCTION
         for (int i=0 ; i<number.length ;i++) {
             if (number[i]== key){
                 return 1;
@@ -12,7 +12,7 @@ public class ArrayCC {
         return -1 ;     
     }
     public static void main (String args[]) {
-        int number[] ={2,4,6,8,10,12,14,16};
+        int number[] ={2,4,6,8,10,12,14,16};  
         int key =10;
         int index = linearsearch(number , key);
         if (index ==1 ){
